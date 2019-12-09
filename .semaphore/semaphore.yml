@@ -16,7 +16,7 @@ blocks:
             - checkout
         - name: Install Pipenv
           commands:
-            - pip install pipenv
+            - pip install --user pipenv
   - name: 'Block #2'
     task:
       jobs:
