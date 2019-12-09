@@ -17,9 +17,7 @@ blocks:
         - name: Install Pipenv
           commands:
             - pip install --user pipenv
-  - name: 'Block #2'
-    task:
-      jobs:
-        - name: Tests
+        - name: Run Tests
           commands:
             - pipenv run nosetest --exe
+    dependencies: []
