@@ -15,5 +15,5 @@ blocks:
         commands:
           - sem-version python 3.7
           - checkout
-          - pip install --user pipenv
+          - pip install pipenv
     dependencies: []
