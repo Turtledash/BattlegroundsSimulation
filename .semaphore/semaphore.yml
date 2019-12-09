@@ -17,4 +17,7 @@ blocks:
           - checkout
           - pip install pipenv
           - ls
+      env_vars:
+        - name: PIPENV_IGNORE_VIRTUALENVS
+          value: '1'
     dependencies: []
